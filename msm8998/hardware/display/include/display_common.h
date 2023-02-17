@@ -38,9 +38,9 @@ extern "C" {
 
 #define __FILENAME__ (strrchr(__FILE__, '/') ? (strrchr(__FILE__, '/') + 1) : __FILE__)
 
-#ifndef DISPLAY_DEBUG_ENABLE
-#define DISPLAY_DEBUG_ENABLE 0
-#endif
+//#ifndef DISPLAY_DEBUG_ENABLE
+#define DISPLAY_DEBUG_ENABLE 1
+//#endif
 
 #ifndef DISPLAY_LOGD
 #define DISPLAY_LOGD(format, ...)                                                                                     \
